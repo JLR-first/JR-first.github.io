@@ -1,70 +1,65 @@
 .post-it-1 {
-background-color:yellow;
- display:200px ;
- width: 200px;
-height: 200px;
- font-family:sans-serif;
- margin: 24px;
- padding: 24px;
-vertical-align: top;
-
-}
+    background-color : yellow;
+    display : inline-block ;
+    width : 200px;
+    height : 200px;
+    font-family : sans-serif;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+  }
 
 .post-it-2 {
-background-color:yellow;
- display: 200px;
- width: 260px;
-height: 260px;
- font-family:sans-serif;
- margin: 24px;
-  padding: 24px;
-vertical-align: top;
-
+    background-color : yellow;
+    display : inline-block;
+    width : 200px;
+    height : 260px;
+    font-family : sans-serif;
+    margin :  24px;
+    padding : 24px;
+    vertical-align : top;
 }
 
 .post-it-3 {
-background-color:yellow;
- display: 200px;
- width: 200px;
-height: 200px;
- font-family:sans-serif;
- margin: 24px;
- padding: 24px;
-vertical-align: top;
-
+    background-color :yellow;
+    display : inline-block;
+    width : 200px;
+    height : 200px;
+    font-family :sans-serif;
+    margin : 24px;
+    padding : 24px;
+    vertical-align : top;
 }
 
-.post-it-4 {
-background-color:yellow;
- display: 200px;
- width: 200px;
-height: 200px;
- font-family: sans-serif;
- margin: 24px;
- padding: 24px;
-vertical-align: top;
-
+  .post-it-4 {
+    background-color :yellow;
+    display : inline-block;
+    width : 200px;
+    height : 200px;
+    font-family : sans-serif;
+    margin : 24px;
+    padding : 24px;
+    vertical-align : top;
 }
 
 .post-it-5 {
-background-color:yellow;
- display: 200px ;
- width: 260px;
-height: 260px;
- font-family: sans-serif;
- margin: 24px;
- padding: 24px;
-vertical-align: top;
-
+      background-color :yellow;
+      display : inline-block ;
+      width : 200px;
+      height : 200px;
+      font-family : sans-serif;
+      margin : 24px;
+      padding : 24px;
+      vertical-align : top;
 }
 
 .post-it-6 {
-background-color:yellow;
- display: 200px ;
- width: 200px;
-height: 200px;
- font-family: sans-serif;
- margin: 24px;
- padding: 24px;
-vertical-align: top;
+    background-color : yellow;
+    display:  inline-block ;
+    width : 200px;
+    height : 200px;
+    font-family : sans-serif;
+    margin : 24px;
+    padding : 24px;
+    vertical-align : top;
 }
