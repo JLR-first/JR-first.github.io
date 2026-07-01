@@ -1,8 +1,26 @@
 * {
     box-sizing: border-box;
+    text-align: center;
 }
 body {
     margin: 0px;
     font-family: sans-serif;
+    
 }
- 
+ #nav.sc {
+    background-color: royalblue;
+}
+a {
+    color: brown;
+    background-color: pink;
+}
+p{
+    color: yellow;
+}
+li {
+    color: yellow;
+}
+h1 {
+    color: yellow;
+    text-decoration: underline;
+}
