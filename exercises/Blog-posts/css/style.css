@@ -7,14 +7,14 @@ body {
     font-family: sans-serif;
     
 }
- #nav.sc {
+#nav.sc {
     background-color: royalblue;
 }
 a {
     color: brown;
     background-color: pink;
 }
-p{
+p {
     color: yellow;
 }
 li {
