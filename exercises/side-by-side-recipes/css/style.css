@@ -5,4 +5,34 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
- 
+img {
+    width: 100%;
+    object-fit: cover;
+}
+ .single-column {
+    width: 90vw;
+    max-width: 1280px;
+    margin: 0px auto;
+ }
+ .split-layout {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-top: 40px;
+ }
+ .content {
+    
+ }
+ .image-container,
+ .container {
+    flex: 1;
+ }
+ .button {
+    background-color: black;
+    color: white;
+    display: inline-block; 
+    font-weight: bold;
+ }
+ .sub-content {
+    display: inline-block;
+ }
