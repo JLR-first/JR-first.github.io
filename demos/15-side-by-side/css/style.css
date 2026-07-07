@@ -24,3 +24,8 @@ img {
  .content {
     background-color: lightblue;
  }
+ .image-container,
+ .container {
+    flex: 1;
+ }
+ 
