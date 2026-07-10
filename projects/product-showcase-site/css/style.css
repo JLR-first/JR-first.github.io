@@ -10,12 +10,13 @@ body {
 }
 
 a {
-    text-align: center;
+    font-size: larger;
+    font-weight: bold;
     max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
     background-color: navy;
     color: white;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #ic {
@@ -41,4 +42,11 @@ a {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+}
+h1 {
+    padding-top: 25px;
+}
+
+p {
+    padding-bottom: 25px;
 }
