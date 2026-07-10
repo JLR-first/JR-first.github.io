@@ -5,26 +5,44 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-#navbar{
-    background-color: blue;
-    text-align: center;
-    color: white;
+.navbar {
+  align-content: center;
 }
-a {
-    color: white;
-}
-p {
-    font-weight: bold;
+ a {
     font-size: larger;
-}
-.my-element {
-  /* Fallback image for older systems */
-  background-image: url('image.png'); 
+    font-weight: bolder;
+    background-color: blue;
+    color: white;
+    padding-top: 24px;
+ }
+ #layout {
+    display: flex;
+    gap: 50px;
+ }
+
+ #product-info-column p {
+    font-size: larger;
+    font-weight: 900;
+    flex: 1;
+ }
+
+ #featured-image-column {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    flex: 1;
+ }
+section h6{
+    display: flex;
+    gap: 50px;
 }
 
-@supports (background-image: url('image.webp')) {
-  .my-element {
-    /* Overrides the fallback if WebP is supported */
-    background-image: url('image.webp');
-  }
+.thumbnail-column  {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px; 
+  flex: 1;
 }
