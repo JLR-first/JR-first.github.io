@@ -8,11 +8,15 @@ body {
 img {
     width: 100%;
     object-fit: cover;
+    padding-bottom: 24%;
 }
  .single-column {
     width: 90vw;
     max-width: 1280px;
     margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
  }
  .split-layout {
     display: flex;
@@ -20,9 +24,13 @@ img {
     align-items: center;
     margin-top: 40px;
  }
- .content {
-    
- }
+.card p {
+   margin-right: 24px;
+   margin-left: 24px;
+   padding-right: 24px;
+   padding-left: 24px;
+}
+ 
  .image-container,
  .container {
     flex: 1;
@@ -32,7 +40,10 @@ img {
     color: white;
     display: inline-block; 
     font-weight: bold;
+    
  }
  .sub-content {
     display: inline-block;
+    padding-left: 48px;
+    padding-right: 48px;
  }
