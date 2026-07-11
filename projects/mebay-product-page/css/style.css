@@ -5,44 +5,42 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-.navbar {
-  align-content: center;
+
+#navbar {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    background-color: aqua;
+    height: 50px;
+    padding-top: 10px;
 }
- a {
-    font-size: larger;
-    font-weight: bolder;
+
+a {
     background-color: blue;
     color: white;
-    padding-top: 24px;
- }
- #layout {
-    display: flex;
-    gap: 50px;
- }
-
- #product-info-column p {
-    font-size: larger;
-    font-weight: 900;
-    flex: 1;
- }
-
- #featured-image-column {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-right: auto;
-    flex: 1;
- }
-section h6{
-    display: flex;
-    gap: 50px;
+    width: 48ps;
 }
 
-.thumbnail-column  {
-  width: 24px;
-  height: 24px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 8px; 
-  flex: 1;
+#layout {
+    display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;
+}
+
+
+.thumbnail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+
+
+#product-info-column p {
+    font-size: larger;
+    font-weight: bold;
+}
+
+section h6 {
+    text-decoration: underline;
 }
