@@ -5,7 +5,9 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-
+img {
+    width: 100%;
+}
 #navbar {
     font-size: x-large;
     font-weight: bold;
@@ -19,25 +21,18 @@ body {
 a {
     background-color: blue;
     color: white;
-    width: 48ps;
+
 }
 
 #layout {
-    padding-top: 20px;
-    justify-content: left;
-    box-sizing: content-box 20px;
+    display: flex;
     
 }
 
 .thumbnail-column {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 10px;
-  justify-content: right;
+
 
 }
-
-
 
 #product-info-column p {
     font-size: larger;
