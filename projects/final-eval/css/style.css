@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.two-column {
+    margin: 0px auto;
+    width: 90vw;
+    max-width: 1200px;
+}
+.top {
+    text-align: center;
+    padding-bottom: 24px;
+}
+img {
+    display: flex;
+    width: 250px;
+}
+#eagles-image {
+    display: inline-block;
+    object-fit: cover;
+}
+#patriots-image {
+    
+    display: inline-block;
+    object-fit: cover;
+}
+.middle {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.bottom {
+    padding: 28px;
+    font-size: large;
+    font-weight: bold;
+}
+.btn-1 {
+    text-align: right;
+    padding: 16px;
+    display: inline-block;
+    font-weight: bold;
+    background-color: darkgreen;
+    color: white;
+    width: 20%;
+}
+.btn-2 {
+    text-align: left;
+    padding: 16px;
+    display: inline-block;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    width: 20%;
+}
+
+#Eagles {
+    padding-left: 24px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#patriots {
+    font-size: xx-large;
+    font-weight: bold;
+}
