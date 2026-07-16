@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#navbar a {
+    margin-top: 24px;
+}
+a {
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 48px;
+    margin-left: 3%;
+}
+#portraits,
+#landscape {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#portraits img,
+#landscape img {
+    width: 100%;
+}
+
+#hero  img {
+    padding: 28px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 28px;
+    text-decoration: underline;
+
+}
