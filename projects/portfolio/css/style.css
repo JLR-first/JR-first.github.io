@@ -33,9 +33,21 @@ a {
     width: 100%;
 }
 
-#hero  img {
-    padding: 28px;
-    width: 100%;
+#hero-content {
+    background-image: url(../images/urban-hi-res-3q76.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-content p {
+    color: lightskyblue;
+    font-size: large;
+    font-weight: bold;
+    text-align: end;
 }
 
 h1 {
@@ -44,4 +56,22 @@ h1 {
     padding: 28px;
     text-decoration: underline;
 
+}
+
+.cards {
+    background-color: aqua;
+    text-align: left;
+}
+
+.card-container {
+    padding: 36px;
+    display: flex;
+    gap: 12px;
+}
+
+.card-container div {
+    padding: 12px;
+    border: 5px solid skyblue;
+    flex: 1;
+    min-width: 100px;
 }
